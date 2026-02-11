@@ -11,6 +11,10 @@
         <h3>Hey there, I am Leen Ghazi</h3>
         <h3>A passionate Computer Science student</h3>       
         <p>I am a computer science student who has the potential to boost their academic and professional career. Very interested in my university major and plans to be a data scientist. I enjoy working on projects that involve data analysis, machine learning, and software development. I am an excellent problem solver, team leader, planner, and time manager, and open to applying all my knowledge to solve real-life problems.</p>
+        <!-- optional, add my information? -->
+        <h6>Contact </h6>
+        <p>Email: s202223660@kfupm.edu.sa</p>
+
     </section>
 
     <section>
@@ -47,10 +51,34 @@
     </section>
 
     <section>
-        <h2>Contact </h2>
-        <p>Name: Leen Ghazi Almjnouni</p>
-        <p>Email: s202223660@kfupm.edu.sa</p>
-        <p>Message: write some  message here</p>
+        <div class="container">
+        <h2>Contact</h2>
+        <p class="section-subtitle">Send a message.</p>
+
+        <form id="contactMeForm" class="form">
+          <div class="form-row">
+            <label>
+              Name
+              <input type="text" name="name" required placeholder="Your full name" />
+            </label>
+
+            <label>
+              Email
+              <input type="email" name="email" required placeholder="example@email.com" />
+            </label>
+          </div>
+
+          <label>
+            Message
+            <textarea name="message" rows="6" required placeholder="Write your message here..."></textarea>
+          </label>
+
+          <button class="btn primary" type="submit">Send</button>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+
     </section>
 </body>
 </html>
