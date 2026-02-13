@@ -164,6 +164,13 @@ section {
   padding: 22px;
 }
 
+.section-card {
+  border-radius: var(--radius);
+  padding: 0;            /* wrapper only */
+  background: transparent;
+  box-shadow: none;
+}
+
 .section-title {
   margin: 0 0 8px;
   font-size: clamp(1.3rem, 1.2rem + 1vw, 1.9rem);
@@ -356,8 +363,13 @@ input:focus, textarea:focus {
 }
 
 /* highlight section on jump */
-:target .card {
-  outline: 3px solid color-mix(in srgb, var(--accent) 35%, transparent);
+:target .section-card {
+  outline: 3px solid color-mix(in srgb, var(--accent) 40%, transparent);
   outline-offset: 6px;
-  transition: outline 0.25s ease;
+  animation: fadeHighlight 2s ease-out forwards;
+}
+@keyframes fadeHighlight {
+  0%   { outline-color: color-mix(in srgb, var(--accent) 40%, transparent); }
+  70%  { outline-color: color-mix(in srgb, var(--accent) 20%, transparent); }
+  100% { outline-color: transparent; }
 }
