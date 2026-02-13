@@ -85,14 +85,6 @@ img {
   letter-spacing: 0.2px;
 }
 
-.brand-badge {
-  width: 34px;
-  height: 34px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--primary), var(--accent));
-  box-shadow: var(--shadow);
-}
-
 .brand-sub {
   font-weight: 650;
   color: var(--muted);
@@ -241,6 +233,11 @@ section {
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
 }
+
+#projects .project-card {
+  border: 1px solid var(--border);
+}
+
 /* Image container */
 .img-box {
   width: 70%;
