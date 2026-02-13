@@ -5,65 +5,154 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leen Ghazi | Portfolio</title>
     <!-- linking my css and js files here-->
-     <link rel="stylesheet" href="css/styles.css"/>
-     <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="js/script.js"></script>
 
 </head>
+
 <body>
-    <section>
-        <h2>About Me</h2>
-        <h3>Hey there, I am Leen Ghazi</h3>
-        <h3>A passionate Computer Science student</h3>       
-        <p>I am a computer science student who has the potential to boost their academic and professional career. Very interested in my university major and plans to be a data scientist. I enjoy working on projects that involve data analysis, machine learning, and software development. I am an excellent problem solver, team leader, planner, and time manager, and open to applying all my knowledge to solve real-life problems.</p>
-        <!-- optional, add my information? -->
-        <h6>Contact </h6>
-        <p>Email: s202223660@kfupm.edu.sa</p>
+  <!-- NAV -->
+  <header class="navbar">
+    <div class="container nav-inner">
+      <div class="brand">
+        <div class="brand-badge" aria-hidden="true"></div>
+        <div>
+          Leen Ghazi
+          <div class="brand-sub">Portfolio</div>
+        </div>
+      </div>
 
-    </section>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
 
-    <section>
-        <h2>Projects</h2>
+        <button id="themeToggle" class="btn ghost" type="button" aria-label="Toggle theme">
+          🌙 Theme
+        </button>
+        <a class="btn primary" href="#contact">Hire / Message</a>
+      </nav>
+    </div>
+  </header>
 
-        <h3>Project 1: Salary Prediction Classification"</h3>
-        <p>A data science and machine learning project that classifies salary ranges (> 50k annually) based on personal and professional attributes. The model analyzes patterns in the data and examine 3 prediction models (Decision Tree, Random Forest, Naive Byse).</p>
-        <p>"IMAGE 1 GOES HERE"</p>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="card">
+          <h2 class="hero-title">Hey there, I am <span>Leen Ghazi</span></h2>
+          <p class="subtitle">A passionate Computer Science student</p>
+          <p>
+            I am a computer science student who has the potential to boost their academic and professional career.
+            Very interested in my university major and plans to be a data scientist. I enjoy working on projects
+            that involve data analysis, machine learning, and software development. I am an excellent problem solver,
+            team leader, planner, and time manager, and open to applying all my knowledge to solve real-life problems.
+          </p>
+    
+        </div>
 
-        <h3>Project 2: Peruke Game"</h3>
-        <p>A multiplayer strategy game developed using Python and Tkinter that challenges 2 players to make smart decisions using dice-based mechanics and 6 discs for each player. Players can win the game by strategically flip their discs and collect points to win. This project focuses on game logic in calculating the points, user interface design, and interactive gameplay.</p>
-        <p>"IMAGE 2 GOES HERE"</p>
+        <aside class="card contact-mini">
+          <h2 class="section-title mini-title">Contact</h2>
+          <p class="subtitle" style="margin-top: 0;">Quick info</p>
+          <p>Email: s202223660@kfupm.edu.sa</p>
 
-        <h3>Project 3: Research on "Analysing and Forecasting Crime Trends in Los Angeles Using Time Series Analysis"</h3>
-        <p>A data analysis project that examine crime rate patterns in Los Angeles using time series analysis. It applies 3 statistical and machine learning models (ARIMA, SARIMA, LSTM) to predict future crime rates and evaluate trends for the future.</p>
-        <p>"IMAGE 3 GOES HERE"</p>
-    </section>
+          <div class="divider"></div>
 
-    <section>
-        <h2>Skills</h2>
-        <h3>Professional Skills</h3>
-        <p>Problem Solving</p>
-        <p>Time Management</p>
-        <p>Presentation Skills</p>
-        <p>Research Skills</p>
+          <p class="subtitle" style="margin: 0 0 10px;">Tip</p>
+          <p style="margin: 0;">
+            Use the navigation bar to jump to Projects / Skills, or scroll down.
+          </p>
+        </aside>
+      </div>
+    </div>
+  </section>
 
-        <h3>Programming Skills</h3>
-        <p>Java</p>
-        <p>Python</p>
-        <p>C/C++</p>
-        <p>R</p>
-        <p>SQL</p>
-        <p>HTML/CSS/JavaScript</p>
-    </section>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">Projects</h2>
+        <p class="subtitle">A few things I’ve built / worked on.</p>
 
-    <section>
-        <div class="container">
-        <h2>Contact</h2>
-        <p class="section-subtitle">Send a message.</p>
+        <div class="grid-3">
+          <article class="card project-card inner-card">
+            <h3>Project 1: Salary Prediction Classification</h3>
+            <p>
+              A data science and machine learning project that classifies salary ranges (&gt; 50k annually) based on
+              personal and professional attributes. Examines 3 models (Decision Tree, Random Forest, Naive Bayes).
+            </p>
+            <div class="img-placeholder">IMAGE 1 GOES HERE</div>
+          </article>
+
+          <article class="card project-card inner-card">
+            <h3>Project 2: Peruke Game</h3>
+            <p>
+              A multiplayer strategy game developed using Python and Tkinter. Two players use dice-based mechanics and
+              6 discs each. Focus on game logic, UI design, and interactive gameplay.
+            </p>
+            <div class="img-placeholder">IMAGE 2 GOES HERE</div>
+          </article>
+
+          <article class="card project-card inner-card">
+            <h3>Project 3: Crime Forecasting (LA)</h3>
+            <p>
+              Research on analysing and forecasting crime trends in Los Angeles using time series analysis.
+              Uses ARIMA, SARIMA, and LSTM to predict future crime rates and evaluate trends.
+            </p>
+            <div class="img-placeholder">IMAGE 3 GOES HERE</div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">Skills</h2>
+        <p class="subtitle">Professional + programming strengths.</p>
+
+        <div class="skills-grid">
+          <div class="card inner-card">
+            <h3 class="inner-title">Professional Skills</h3>
+            <div class="chips">
+              <span class="chip">Problem Solving</span>
+              <span class="chip">Time Management</span>
+              <span class="chip">Presentation Skills</span>
+              <span class="chip">Research Skills</span>
+            </div>
+          </div>
+
+          <div class="card inner-card">
+            <h3 class="inner-title">Programming Skills</h3>
+            <div class="chips">
+              <span class="chip">Java</span>
+              <span class="chip">Python</span>
+              <span class="chip">C/C++</span>
+              <span class="chip">R</span>
+              <span class="chip">SQL</span>
+              <span class="chip">HTML/CSS/JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="card">
+        <h2 class="section-title">Contact</h2>
+        <p class="subtitle">Send a message.</p>
 
         <form id="contactMeForm" class="form">
           <div class="form-row">
             <label>
               Name
-              <input type="text" name="name" required placeholder="Your full name" />
+              <input id="nameInput" type="text" name="name" required placeholder="Your full name" />
             </label>
 
             <label>
@@ -83,6 +172,11 @@
         </form>
       </div>
 
-    </section>
+      <div class="footer">
+        © <span id="yearNow"></span> Leen Ghazi — Built with HTML/CSS/JS
+      </div>
+    </div>
+  </section>
 </body>
 </html>
+
