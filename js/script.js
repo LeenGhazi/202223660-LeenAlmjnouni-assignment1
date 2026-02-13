@@ -1,17 +1,3 @@
-// 1) Greeting by time of day
-(function setGreeting() {
-  const now = new Date();
-  const hour = now.getHours();
-  let greet = "Hello 👋";
-  if (hour >= 5 && hour < 12) greet = "Good morning ☀️";
-  else if (hour >= 12 && hour < 17) greet = "Good afternoon 🌤️";
-  else if (hour >= 17 && hour < 22) greet = "Good evening 🌙";
-  else greet = "Hello night owl 🌙";
-
-  const pill = document.getElementById("greetingPill");
-  if (pill) pill.textContent = greet;
-})();
-
 // 2) Theme toggle (Light/Dark)
 const themeToggleBtn = document.getElementById("themeToggle");
 
