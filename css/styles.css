@@ -147,7 +147,10 @@ img { max-width: 100%; display: block; }
 /* =========================
    SECTIONS
 ========================= */
-section { padding: 34px 0; }
+section { 
+    padding: 34px 0;
+    scroll-margin-top: 70px; 
+}
 
 .card {
   background: color-mix(in srgb, var(--surface) 92%, transparent);
