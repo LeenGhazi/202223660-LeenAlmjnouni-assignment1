@@ -2,38 +2,34 @@
    THEME (Light/Dark)
 ========================= */
 :root {
-  --bg: #f7f9fc;
-  --surface: #ffffff;
+  --bg: #f3ece6;        /* warm page background */
+  --surface: #faf5f0;   /* card background */
   --text: #0f172a;
   --muted: #475569;
-  --border: #e2e8f0;
-
-  /*--primary: #57886c;
-  --primary-2: #81a684;
-  --accent: #f1e0c5;*/
+  --border: #e4d8cf;
 
   --primary: #5a5353;
   --primary-2: #a07178;
   --accent: #d1b5a6;
-
 
   --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
   --radius: 18px;
 }
 
 html[data-theme="dark"] {
-  --bg: #0b1220;
-  --surface: #0f1a2d;
-  --text: #e5e7eb;
-  --muted: #a7b1c2;
-  --border: #24324d;
+  --bg: #0b0b0b;        /* almost black background */
+  --surface: #151515;   /* card background */
+  --text: #f5f5f5;      /* main text */
+  --muted: #a1a1a1;     /* secondary text */
+  --border: #2a2a2a;    /* subtle borders */
 
-  --primary: #60a5fa;
-  --primary-2: #3b82f6;
-  --accent: #38bdf8;
+  --primary: #bfa08f;   /* your beige accent */
+  --primary-2: #a07f6e; /* darker beige */
+  --accent: #e6ccbe;    /* soft highlight */
 
-  --shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
 }
+
 
 html { scroll-behavior: smooth; }
 * { box-sizing: border-box; }
@@ -42,8 +38,8 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   background:
-  radial-gradient(1200px 600px at 20% 0%, rgba(230, 204, 190, 0.25), transparent 60%),
-  radial-gradient(900px 500px at 90% 10%, rgba(191, 160, 143, 0.20), transparent 55%),
+  radial-gradient(1200px 600px at 20% 0%, rgba(230, 204, 190, 0.15), transparent 60%),
+  radial-gradient(900px 500px at 90% 10%, rgba(191, 160, 143, 0.12), transparent 55%),
   var(--bg);
   color: var(--text);
   line-height: 1.6;
@@ -163,7 +159,6 @@ section {
 
 .card {
   background: color-mix(in srgb, var(--surface) 92%, transparent);
-  border: 1px solid var(--border);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   padding: 22px;
