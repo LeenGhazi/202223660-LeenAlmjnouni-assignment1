@@ -23,8 +23,8 @@ html[data-theme="dark"] {
   --muted: #a1a1a1;     /* secondary text */
   --border: #2a2a2a;    /* subtle borders */
 
-  --primary: #bfa08f;   /* your beige accent */
-  --primary-2: #a07f6e; /* darker beige */
+  --primary: #5a5353;   /* your beige accent */
+  --primary-2: #a07178; /* darker beige */
   --accent: #e6ccbe;    /* soft highlight */
 
   --shadow: 0 12px 35px rgba(0, 0, 0, 0.8);
