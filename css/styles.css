@@ -8,9 +8,14 @@
   --muted: #475569;
   --border: #e2e8f0;
 
-  --primary: #1e40af;
-  --primary-2: #2563eb;
-  --accent: #0ea5e9;
+  /*--primary: #57886c;
+  --primary-2: #81a684;
+  --accent: #f1e0c5;*/
+
+  --primary: #5a5353;
+  --primary-2: #a07178;
+  --accent: #d1b5a6;
+
 
   --shadow: 0 10px 30px rgba(2, 6, 23, 0.08);
   --radius: 18px;
@@ -37,9 +42,9 @@ body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   background:
-    radial-gradient(1200px 600px at 20% 0%, rgba(37, 99, 235, 0.12), transparent 60%),
-    radial-gradient(900px 500px at 90% 10%, rgba(14, 165, 233, 0.10), transparent 55%),
-    var(--bg);
+  radial-gradient(1200px 600px at 20% 0%, rgba(230, 204, 190, 0.25), transparent 60%),
+  radial-gradient(900px 500px at 90% 10%, rgba(191, 160, 143, 0.20), transparent 55%),
+  var(--bg);
   color: var(--text);
   line-height: 1.6;
 }
