@@ -1,4 +1,4 @@
-// 2) Theme toggle (Light/Dark)
+// 1) Theme toggle (Light/Dark)
 const themeToggleBtn = document.getElementById("themeToggle");
 
 function applyTheme(theme) {
@@ -21,13 +21,13 @@ themeToggleBtn.addEventListener("click", () => {
   applyTheme(current === "light" ? "dark" : "light");
 });
 
-// 3) Smooth scrolling is in CSS (scroll-behavior: smooth)
+// 2) Smooth scrolling is in CSS (scroll-behavior: smooth)
 // optional tiny UX
 document.querySelectorAll('a[href^="#"]').forEach(a => {
   a.addEventListener("click", () => setTimeout(() => a.blur(), 150));
 });
 
-// 4) Form interaction (demo)
+// 3) Form interaction (demo)
 const form = document.getElementById("contactMeForm");
 const statusEl = document.getElementById("formStatus");
 const nameInput = document.getElementById("nameInput");
