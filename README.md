@@ -2,6 +2,10 @@
 
 Here is a simple personal portfolio website I have built using HTML, CSS, and JavaScript.
 
+## Project Description
+This project is a personal portfolio website built as part of the first assignment. The purpose of the website is to present personal information, projects, skills, and contact details in a professional format. It is designed as a single-page application with multiple sections connected using internal navigation links on the top of the page. The website follows a modern web development practices by separating structure (HTML), style (CSS), and behavior/functionality (JS).
+
+
 ## Main Features
 My portfolio includes the following:
 - Main sections:
