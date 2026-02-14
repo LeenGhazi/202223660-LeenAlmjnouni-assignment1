@@ -1,15 +1,15 @@
 # Technical Documentation 
 
 Here, I documented all my work in this assignment:
-* [1. Technologies Used](#1. Technologies Used)
-* [2. Folder Structure](#folder-structure)
-* [3. Website Structure](#website-structure)
-* [4. Image Handling](#image-handling)
-* [5. JavaScript Functionality](#javascript-functionality)
-* [6. Accessibility Features](#accessibility-features)
-* [7. Performance Optimization](#performance-optimization)
-* [8. Testing and Validation](#testing-and-validation)
-* [9. GitHub Control](#github-control)
+* [1. Technologies Used](#1-technologies-used)
+* [2. Folder Structure](#2-folder-structure)
+* [3. Website Structure](#3-website-structure)
+* [4. Image Handling](#4-image-handling)
+* [5. JavaScript Functionality](#5-javascript-functionality)
+* [6. Accessibility Features](#6-accessibility-features)
+* [7. Performance Optimization](#7-performance-optimization)
+* [8. Testing and Validation](#8-testing-and-validation)
+* [9. GitHub Control](#9-github-control)
 
 
 
