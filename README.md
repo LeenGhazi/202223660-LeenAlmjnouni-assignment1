@@ -37,5 +37,5 @@ Clear structure of the files ordered in this repository:
 2. Open `index.html` and run it in your browser  
 
 
-## AI Use Report (Short Summary)  - CHECK?
-I used AI tools to help draft the initial layout, improve responsive CSS structure, and review JavaScript logic. Full details are documented in `docs/ai-usage-report.md`.
+## AI Use Report Short Summary
+AI tools were very useful in drafting the intial code and website layout for ll the 3 code files (HTML, CSS< and JS). All details are documented and can be found in `docs/ai-usage-report.md`.
