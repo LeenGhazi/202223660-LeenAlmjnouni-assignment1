@@ -1,7 +1,7 @@
 # Technical Documentation 
 
 Here, I documented all my work in this assignment:
-* [1. Technologies Used](#technologies-used)
+* [1. Technologies Used](#1. Technologies Used)
 * [2. Folder Structure](#folder-structure)
 * [3. Website Structure](#website-structure)
 * [4. Image Handling](#image-handling)
