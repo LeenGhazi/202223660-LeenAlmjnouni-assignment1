@@ -1,4 +1,4 @@
-// 1) Theme toggle (Light/Dark)
+// 1) Theme (Light/Dark)
 const themeToggleBtn = document.getElementById("themeToggle");
 
 function applyTheme(theme) {
