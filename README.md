@@ -19,7 +19,7 @@ My portfolio includes the following:
 Clear structure of the files ordered in this repository:
 
 | File Name | Usage |
-|---|---|---|
+|---|---|
 | `index.html` | Main page (where the program should run in) |
 | `css/styles.css` | For page styling |
 | `js/script.js` | For functionality  |
