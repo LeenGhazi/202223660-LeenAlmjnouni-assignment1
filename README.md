@@ -9,10 +9,10 @@ This project is a personal portfolio website built as part of the first assignme
 ## Main Features
 My portfolio includes the following:
 - Main sections:
-	- About Me
-	- Projects 
-	- Skills
-	- Contact sections
+	- About Me: A short description about me
+	- Projects: 3 projects I worked on
+	- Skills: Professional and Programming skills
+	- Contact Form 
 - Responsive web design for mobile, tablet, and desktop users.
 - Basic JavaScript interactivity:
   - Dark/Light theme 
